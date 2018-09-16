@@ -1,0 +1,29 @@
+xxx.jsp:  <%@ taglib uri="/struts-tags" prefix="s" %>
+
+step into：进入子函数
+step over：越过子函数，但子函数会执行，
+step return：跳出子函数，返回到上一级函数，但是子函数会执行
+
+spring中的applicationContext.xml配置文件的约束
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       					   http://www.springframework.org/schema/beans/spring-beans.xsd
+       					   http://www.springframework.org/schema/tx 
+       					   http://www.springframework.org/schema/tx/spring-tx.xsd
+       					   http://www.springframework.org/schema/aop 
+       					   http://www.springframework.org/schema/aop/spring-aop.xsd
+       					   http://www.springframework.org/schema/context 
+       					   http://www.springframework.org/schema/context/spring-context.xsd">
+struts.xml配置文件的约束
+				<?xml version="1.0" encoding="UTF-8"?>
+				<!DOCTYPE struts PUBLIC
+					"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+					"http://struts.apache.org/dtds/struts-2.3.dtd">
+核心控制器名称：
+				org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+jdbc:mysql://localhost:3306/day19_ssh

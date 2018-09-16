@@ -1,0 +1,42 @@
+系统进程：
+1、 Application Layer Gateway alg.exe是alg网关。alg.exe简称“ALG”（应用层网关），其进程名是alg.exe，
+	  WinXP  Home/PRO默认安装的启动类型为手动。alg.exe进程文件是微软Windows操作系统自带的程序，它被
+	  用于处理微软Windows网络连接共享和网络连接防火墙等程序的正常工作而存在。体积大约43.5Kb，如果该程
+	  序出现异常情况,会对系统造成极大影响。
+2、 audiodg.exe Windows音频设备管理程序 这个进程主要是对耳机音质进行大幅度的提升，开不开由你
+3、 ccbcertificate.exe 建行提供的大明五洲的网银盾驱动，保障建行网银交易的安全。是安全的文件。
+4、 conhost.exe 是命令行程序的宿主进程是对电脑器保护作用的进程 不要关
+5、 csrss.exe 管理Windows图形相关任务，对系统的正常运行非常重要
+6、 dwm.exe 全名Desktop Window Manager桌面窗口管理器 其中最明显的特征有：任务栏窗口的实时缩略图；Alt-Tab和Win-Tab组合键所看到的效果。
+	   提供视觉效果有毛玻璃框架、3D窗口变换动画、窗口翻转和高分辨率支持。对于画面要求不高的就关了。EgisTec BioExcess windown 指纹识别加密， 关了   
+	   最讨厌这个。我怎么卸也卸不掉，望高手指教。
+7、  Egishlpsvc.exe 这个不知道，但是是没用的。关了把。
+8、  Energy Management.exe 联想自带的电源管理，不要关。
+9、  explorer.exe Windows资源管理器 用于管理Windows图形壳，包括开始菜单、任务栏、桌面和文件管理，删除该程序会导致Windows图形界面无法适用不要关
+        IAStorDataMgrSvc.exe 加载SATA驱动
+10、LMS.exe 这个进程重要 不要关
+11、lsass.exe 用于微软Windows系统的安全机制。它用于本地安全和登陆策略
+12、lsm.exe 本地会话管理器服务
+13、mDNSResponder.exe Bonjour的音乐分享软件相关程序，很多时候是安装了ADOBE CS3 之后出现的
+14、nvvsvc.exe NVIDIA显卡驱动帮助服务 不关
+15、PrivacyIconClient.exe 隐藏图像程序。
+16、searchIndexer.exe 给Windows Vista 和 Windows7增强搜索功能 关了也无所谓
+17、SearchProtocolHost.exe 桌面搜索引擎的索引程序 如果没有配备多核心 CPU 以及 2 GB 以上内存就关了
+18、services.exe 用于管理启动和停止服务。该进程也会处理在计算机启动和关机时运行的服务长时间使用电脑会导致services.exe占用大量内存，其主要原因是Event  
+        Log过多，而services.exe启动时会加载Eventlog。由此使得进程占用大量内存。解决方法：“控制面板”-“管理工具”-“事件查看器”里，把三种事件日志全部清空
+19、 spoolsv.exe 管理所有本地和网络打印队列及控制所有打印工作 可以关
+20、 smss.exe 重要 该进程为会话管理子系统用以初始化系统变量 调用对话管理子系统和负责操作你系统的对话
+21、 svchost.exe 这个不说了很重要 动态连接库主机处理服务
+22、 system idle Windows内存处理系统进程 结束不了的 也不要关
+23、 taskhost.exe 计划任务程序 ,让操作系统到时间就执行您所设置的相关操作
+24、 taskmgr.exe 显示系统中正在运行的进程 相当于任务器管理
+25、 UNS.exe 为Intel针对其桌面系列芯片组推出的热能管理驱动 类似于一种接口 介于固件和系统驱动之间
+26、 utility.exe 联想电源管理文件夹下的跟电源管理无关的实用小程序 当使用快捷键进行音量调节和屏幕亮度调节等操作时，将在屏幕上显示状态条
+27、  wininit.exe 　　Windows启动应用程序 是启动service.exe,lsass.exe,lsm.exe 不能终止
+28、  winlogon.exe 用户登陆程序，管理用户登录和退出
+29、  wlanext.exe 管理无线网络
+30、  WLIDSVC.EXE windows live软件进程 是msn安装的时候有的
+31、  WLIDSVCM.EXE MS office 2007在线存储服务后台进程
+
+
+Note that 300 s GQDs ,600 s GeQD and 900 s GQDs  represent the growth time of GQDs are 300 s , 600 s and 900s respectively.
